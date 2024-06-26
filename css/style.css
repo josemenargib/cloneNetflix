@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-image: linear-gradient(rgba(26, 8, 8, 0.5),#00000066,rgb(6, 10, 27)),url('../img/netflix-fondo.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 7vh;
+    padding: 0px 15px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: 148px;
+    height: 70px;
+}
+.seleccionarIdioma{
+    background-color: black;
+    color: white;
+    padding: 6px 36px ;
+    
+
+}
+.iniciarSesion{
+    background-color: rgba(212, 26, 26, 0.986);
+    color: white;
+    padding: 6px 36px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.contenido{
+    color: white;
+    margin-top: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+    
+
+}
+.textoUno{
+    font-weight: bold;
+    font-size: 48px;
+}
+.textoDos{
+    font-size: 24px;
+}
+.inputEmail{
+    width: 383.7px;
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    font-weight: bold;
+    font-size: 25px ;
+    border-radius: 5px;
+}
+.botonComenzar{
+    width: 194px;
+    height: 56px;
+    color: white;
+    background-color: rgba(212, 26, 26, 0.986);
+    font-size: 25px ;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.iniciarSesion:hover{
+    background-color: red ;
+}
+.botonComenzar:hover{
+    background-color: red ;
+}
